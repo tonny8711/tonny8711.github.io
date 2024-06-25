@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: skip_render
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -104,3 +104,20 @@ deploy:
   type: git
   repository: https://github.com/tonny8711/tonny8711.github.io.git  #你的仓库地址
   branch: master
+
+
+# symbols_count_time:
+#   symbols: true                # 文章字数统计
+#   time: true                   # 文章阅读时长
+#   total_symbols: true          # 站点总字数统计
+#   total_time: true             # 站点总阅读时长
+#   exclude_codeblock: false     # 排除代码字数统计
+
+
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 10
+  hub:
+  content: 'true'
