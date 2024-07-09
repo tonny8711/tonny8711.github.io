@@ -1,4 +1,0 @@
----
-title: JS trick
-tags:
----
